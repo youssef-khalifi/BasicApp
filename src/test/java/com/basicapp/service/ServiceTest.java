@@ -17,7 +17,7 @@ class ServiceTest {
     @Test
     public void testSubtraction() {
         Service service = new Service();
-        assertEquals(28, service.subtraction(5, 3));
+        assertEquals(2, service.subtraction(5, 3));
         assertEquals(-8, service.subtraction(-5, 3));
         assertEquals(0, service.subtraction(0, 0));
     }
