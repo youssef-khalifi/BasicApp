@@ -12,6 +12,7 @@ public class Service {
 
     public int multiplication(int num1, int num2) {
         return num1 * num2;
+        //test
     }
 
 }
